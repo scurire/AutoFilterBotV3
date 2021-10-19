@@ -114,19 +114,13 @@ async def start(bot, message):
             parse_mode="Markdown",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [
-                    [
+                [[
+                    
                         InlineKeyboardButton("Close ❌",callback_data="close")
                
-                    [
-                [
-             )
-         )
-             
-
-       
-            
-
+                    [[
+            )
+        )
         StopPropagation
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
