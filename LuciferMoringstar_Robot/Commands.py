@@ -118,7 +118,7 @@ async def start(bot, message):
                     
                         InlineKeyboardButton("Close ❌",callback_data="close")
                
-                    [[
+                ]]
             )
         )
         StopPropagation
