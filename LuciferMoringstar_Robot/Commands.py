@@ -116,7 +116,7 @@ async def start(bot, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Close ❌", switch_inline_query_current_chat='')
+                        InlineKeyboardButton("Close ❌",callback_data="close")
                
                     [
                 [
