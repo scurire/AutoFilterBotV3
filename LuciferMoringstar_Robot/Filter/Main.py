@@ -277,7 +277,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "help":
             buttons = [
                 [
-                    InlineKeyboardButton('⚜️ Join Our Channel ⚜️', url='https://t.me/Mollywood_channel')
+                    InlineKeyboardButton('⚜️ Join Our Channel ⚜️', url=f'https://t.me/Mollywood_channel')
                 ]
                 ]
             await query.message.edit(text=f"{HELP}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -285,7 +285,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('⚜️ Join Our Channel ⚜️', url='https://t.me/Mollywood_channel')
+                    InlineKeyboardButton('⚜️ Join Our Channel ⚜️', url=f'https://t.me/Mollywood_channel')
                 ]
                 ]
             await query.message.edit(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -308,7 +308,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('⚜️ Join Channel ⚜️', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('⚜️ Join Channel ⚜️', url=f'https://t.me/Mollywood_channel')
                     ]
                     ]
                 
@@ -339,7 +339,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('⚜️ Join Channel ⚜️, url='https://t.me/Mollywood_channel')
+                        InlineKeyboardButton('⚜️ Join Channel ⚜️, url=f'https://t.me/Mollywood_channel')
                     ]
                     ]
                 
